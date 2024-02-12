@@ -1,14 +1,14 @@
 country: USA
 name: US Navy 2005
-authors: Fuzzle
+authors: Fuzzle, Chilli
 description: <p>A modern representation of the US Navy/Marine Corps.</p>
 locales:
   - en_US
 aircrafts:
-  - F-14B Tomcat
   - F/A-18C Hornet (Lot 20)
   - F/A-18E Super Hornet
   - F/A-18F Super Hornet
+  - EA-18G Growler
   - AV-8B Harrier II Night Attack
   - AH-1W SuperCobra
   - S-3B Viking
@@ -64,8 +64,6 @@ has_jtac: true
 jtac_unit: MQ-9 Reaper
 doctrine: modern
 liveries_overrides:
-  F-14B Tomcat:
-    - VF-142 Ghostriders
   F/A-18C Hornet (Lot 20):
     - VMFA-251 high visibility
   AV-8B Harrier II Night Attack:

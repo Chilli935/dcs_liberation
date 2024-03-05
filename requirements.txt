@@ -20,7 +20,7 @@ httptools==0.6.1
 identify==2.5.32
 idna==3.6
 iniconfig==2.0.0
-Jinja2==3.1.2
+Jinja2==3.1.3
 MarkupSafe==2.1.3
 mypy==1.7.1
 mypy-extensions==1.0.0
@@ -29,14 +29,14 @@ numpy==1.26.2
 packaging==23.2
 pathspec==0.11.2
 pefile==2023.2.7
-Pillow==10.0.1
+Pillow==10.2.0
 platformdirs==4.0.0
 pluggy==1.3.0
 pre-commit==3.5.0
 pydantic==2.5.2
 pydantic-settings==2.1.0
 pydantic_core==2.14.5
-pydcs @ git+https://github.com/pydcs/dcs@1092fc419d3f879e8e7951b25e15d8b7c9938627
+pydcs @ git+https://github.com/pydcs/dcs@7eeec23ea428846ebbbd0ea4c746f8eafea04e0d
 pyinstaller==5.13.1
 pyinstaller-hooks-contrib==2023.6
 pyproj==3.6.1

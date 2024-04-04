@@ -39,4 +39,5 @@ utc_kneeboard: true
 tasks:
   DEAD: 500
   SEAD: 600
+  SEAD Escort: 550
 hit_points: 20

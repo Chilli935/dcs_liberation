@@ -17,7 +17,13 @@ class TheaterRefuelingFlightPlan(RefuelingFlightPlan):
 
     @property
     def patrol_duration(self) -> timedelta:
-        return timedelta(hours=1)
+        # Add 30 minutes to desired_player_mission_duration as TOTs for flights
+        # can sit up to this time. This extension means the tanker remains on
+        # station for the flights' return.
+        return (
+            self.flight.coalition.game.settings.desired_player_mission_duration
+            + timedelta(minutes=30)
+        )
 
 
 class Builder(IBuilder[TheaterRefuelingFlightPlan, PatrollingLayout]):

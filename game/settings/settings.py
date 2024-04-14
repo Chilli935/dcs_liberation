@@ -467,6 +467,12 @@ class Settings:
         default=timedelta(minutes=60),
         min=30,
         max=150,
+        detail=(
+            "Period of time after the start of a turn where "
+            "there is coverage by one or more CAP flight(s), "
+            "refuelling flights not tied to a specific package are on station, "
+            "and other flights have their TOTs."
+        ),
     )
 
     # Performance

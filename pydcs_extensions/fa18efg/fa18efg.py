@@ -15,10 +15,10 @@ class WeaponsFA18EFG:
     ALQ_99Center = {"clsid": "{ALQ-99Center}", "name": "ALQ-99Center", "weight": 0}
     ALQ_99Wing = {"clsid": "{ALQ-99Wing}", "name": "ALQ-99Wing", "weight": 0}
     FLIR = {"clsid": "{FLIR}", "name": "FLIR", "weight": 0}
-    FPU_12_Fuel_Tank_480_gallons = {
+    FPU_12_Fuel_Tank_480_gallons_ = {
         "clsid": "{FPU_12_FUEL_TANK}",
         "name": "FPU-12 Fuel Tank 480 gallons",
-        "weight": 1550,
+        "weight": 1950,
     }
     FPU_12_Fuel_Tank_480_gallons_High_Vis = {
         "clsid": "{FPU_12_FUEL_TANKHighVis}",

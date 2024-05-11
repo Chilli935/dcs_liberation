@@ -558,6 +558,7 @@ class WeaponsFA18EFG:
         "weight": 1824,
     }
     ALQ_167 = {"clsid": "{ALQ-167}", "name": "ALQ-167", "weight": 50}
+    USAFlag_ = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
 
 
 inject_weapons(WeaponsFA18EFG)

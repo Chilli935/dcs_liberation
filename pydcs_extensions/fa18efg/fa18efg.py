@@ -38,6 +38,7 @@ class WeaponsFA18EFG:
         "weight": 1950,
     }
     TLAU_127 = {"clsid": "{TLAU_127}", "name": "TLAU_127", "weight": 0}
+    TLAU_127_ = {"clsid": "{TLAU_127}", "name": "TLAU_127", "weight": 0}
     USAFlag = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
     USAFlag_ = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
     AIM_120D_AMRAAM___Active_Rdr_AAM = {

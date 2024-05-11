@@ -14,6 +14,8 @@ class WeaponsFA18EFG:
     AA42R_Buddy_Pod = {"clsid": "{AA42R}", "name": "AA42R Buddy Pod", "weight": 1520}
     ALQ_99Center = {"clsid": "{ALQ-99Center}", "name": "ALQ-99Center", "weight": 0}
     ALQ_99Wing = {"clsid": "{ALQ-99Wing}", "name": "ALQ-99Wing", "weight": 0}
+    ALQ_167 = {"clsid": "{ALQ-167}", "name": "ALQ-167", "weight": 50}
+    ALQ_249 = {"clsid": "{ALQ-249}", "name": "ALQ-249", "weight": 50}
     FLIR = {"clsid": "{FLIR}", "name": "FLIR", "weight": 0}
     FPU_12_Fuel_Tank_480_gallons = {
         "clsid": "{FPU_12_FUEL_TANK_EF}",
@@ -37,6 +39,7 @@ class WeaponsFA18EFG:
     }
     TLAU_127 = {"clsid": "{TLAU_127}", "name": "TLAU_127", "weight": 0}
     USAFlag = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
+    USAFlag_ = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
     AIM_120D_AMRAAM___Active_Rdr_AAM = {
         "clsid": "{C8E06185-7CD6-4C90-959F-044679E90751}",
         "name": "AIM-120D AMRAAM - Active Rdr AAM",
@@ -567,8 +570,6 @@ class WeaponsFA18EFG:
         "name": "Pylon 9 | 8 - Mk-84 - 2000lb GP Bomb LD",
         "weight": 1824,
     }
-    ALQ_167 = {"clsid": "{ALQ-167}", "name": "ALQ-167", "weight": 50}
-    USAFlag_ = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
 
 
 inject_weapons(WeaponsFA18EFG)

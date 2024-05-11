@@ -30,6 +30,11 @@ class WeaponsFA18EFG:
         "name": "FPU-12 Fuel Tank 480 gallons High Vis",
         "weight": 1550,
     }
+    FPU_12_Fuel_Tank_480_gallons_High_Vis_ = {
+        "clsid": "{FPU_12_FUEL_TANKHighVis}",
+        "name": "FPU-12 Fuel Tank 480 gallons High Vis",
+        "weight": 1950,
+    }
     TLAU_127 = {"clsid": "{TLAU_127}", "name": "TLAU_127", "weight": 0}
     USAFlag = {"clsid": "{USAFlag}", "name": "USAFlag", "weight": 0}
     AIM_120D_AMRAAM___Active_Rdr_AAM = {

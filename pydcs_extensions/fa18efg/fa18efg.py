@@ -557,11 +557,7 @@ class WeaponsFA18EFG:
         "name": "Pylon 9 | 8 - Mk-84 - 2000lb GP Bomb LD",
         "weight": 1824,
     }
-    ALQ_167 = {
-        "clsid": "{ALQ-167}",
-        "name": "ALQ-167",
-        "weight": 50
-    }
+    ALQ_167 = {"clsid": "{ALQ-167}", "name": "ALQ-167", "weight": 50}
 
 
 inject_weapons(WeaponsFA18EFG)
